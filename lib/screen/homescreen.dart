@@ -264,6 +264,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             (attr) => attr.attributeName.toLowerCase() == 'sku',
                       );
 
+
                       if (attributeSku.value.isEmpty) {
                         return const Center(child: Text("SKU data not available"));
                       }
